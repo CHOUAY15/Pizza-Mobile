@@ -9,23 +9,40 @@
     android:layout_height="match_parent"
     tools:context=".ListPizzaActivity">
 
-    <TextView
-        android:id="@+id/header"
+    <LinearLayout
+        android:id="@+id/headerContainer"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Piizza Mobile"
-        android:textSize="24sp"
-        android:textStyle="bold"
-        android:gravity="left"
-        android:padding="16dp"
-        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
         android:background="@android:color/holo_red_light"
-        android:textColor="@android:color/white"/>
+        android:padding="16dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/header"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Piizza Mobile"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"/>
+
+        <ImageView
+            android:id="@+id/shareIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@android:drawable/ic_menu_share"
+            android:tint="@android:color/white"
+            android:contentDescription="Share"/>
+
+    </LinearLayout>
 
     <ListView
         android:id="@+id/list"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
     </ListView>
 
 </LinearLayout>

@@ -79,7 +79,7 @@
         app:layout_constraintVertical_bias="0.743" />
 
     <ImageView
-        android:id="@+id/imageView4"
+        android:id="@+id/partage"
         android:layout_width="19dp"
         android:layout_height="22dp"
         android:src="@drawable/share"
