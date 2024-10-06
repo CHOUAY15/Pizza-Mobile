@@ -54,11 +54,15 @@ git clone  https://github.com/CHOUAY15/Pizza-Mobile.git
    - Create `PizzaDetailActivity`
    - Implement recipe detail display
 
-# Video
+# Video  Demonstration
 
-https://github.com/user-attachments/assets/cf34ab87-f7c3-437a-a596-7b49efecdfb0
 
- Demonstration
+
+
+https://github.com/user-attachments/assets/059b762f-0612-465a-98d7-f7139b8f13fe
+
+
+
 
 
 ## Contributors
