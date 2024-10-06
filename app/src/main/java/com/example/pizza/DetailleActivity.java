@@ -26,12 +26,14 @@ public class DetailleActivity extends AppCompatActivity {
             TextView nameTextView = findViewById(R.id.pizzatitle);
             TextView ingredientsTextView = findViewById(R.id.pizzatext2);
             TextView descriptionTextView = findViewById(R.id.pizzatext1);
+            TextView prepTextView = findViewById(R.id.pizzatext3);
 
             imageView.setImageResource(produit.getPhoto());
             nameTextView.setText(produit.getNom());
             ingredientsTextView.setText(produit.getDetaisIngred());
 
             descriptionTextView.setText(produit.getDescription());
+            prepTextView.setText(produit.getPreparation());
         }
 
     }

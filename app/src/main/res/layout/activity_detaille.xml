@@ -124,6 +124,32 @@
                 app:layout_constraintTop_toBottomOf="@+id/pizzaingr"
                 tools:text="• Tomato sauce\n• Fresh mozzarella\n• Fresh basil\n• Extra virgin olive oil" />
 
+            <TextView
+                android:id="@+id/pizzainr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:fontFamily="cursive"
+                android:text="Preparation"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pizzatext2" />
+
+            <TextView
+                android:id="@+id/pizzatext3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/pizzainr"
+                tools:text="• Tomato sauce\n• Fresh mozzarella\n• Fresh basil\n• Extra virgin olive oil" />
+
+
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.core.widget.NestedScrollView>
 </androidx.constraintlayout.widget.ConstraintLayout>
