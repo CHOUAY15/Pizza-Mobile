@@ -16,7 +16,7 @@ This Android application allows users to discover various pizza recipes. It pres
 
 ## Installation
 1. Clone the repository:
-git clone  https://github.com/CHOUAY15/Pizza-Mobile.git
+git clone  https://github.com/CHOUAY15/Pizza-mobile.git
 3. Open the project in Android Studio.
 4. Sync the project with Gradle files.
 5. Run the application on an emulator or physical device.
